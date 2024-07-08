@@ -1,0 +1,24 @@
+.sidebar {
+  width: 200px;
+  background-color: #323232;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+.sidebar-item span {
+  margin-left: 10px;
+}
+.sidebar-item.selected {
+  background-color: #fafafa;
+  color: #000000;
+}

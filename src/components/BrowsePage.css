@@ -1,0 +1,40 @@
+.browse-page {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 32px;
+  padding: 4px;
+}
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+}
+
+.community-list {
+  padding: 8px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.community-item {
+  padding: 8px;
+  text-align: left;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  border-radius: 8px;
+  cursor: default;
+}
+.community-item:hover {
+  background-color: #323232;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.community-list h3, p {
+  margin: 8px 0;
+}

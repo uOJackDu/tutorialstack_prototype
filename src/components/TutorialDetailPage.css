@@ -1,0 +1,23 @@
+.tutorial-detail-page {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.feedback {
+  display: flex;
+  margin: 16px 0;
+}
+.feedback span {
+  margin-right: 16px;
+}
+
+.comments-section {
+  margin-top: 16px 0;
+}
+.comment-item {
+  padding: 8px;
+  border-top: 1px solid #ccc;
+}
